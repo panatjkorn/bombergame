@@ -1,0 +1,32 @@
+{
+  "name": "bombergame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-cloud": "cross-env DB_ENV=cloud nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panatjkorn/bombergame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/panatjkorn/bombergame/issues"
+  },
+  "homepage": "https://github.com/panatjkorn/bombergame#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.12.0-beta.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.3.0"
+  }
+}
